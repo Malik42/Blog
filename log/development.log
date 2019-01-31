@@ -659,3 +659,1809 @@ Migrating to CreateTags (20190130183839)
   [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
   ↳ db/seeds.rb:12
   [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Heath"], ["last_name", "Lynch"], ["email", "frederickanicolas@brakuspredovic.co"], ["created_at", "2019-01-30 21:39:54.548654"], ["updated_at", "2019-01-30 21:39:54.548654"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (73.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Mathilde"], ["last_name", "Lubowitz"], ["email", "ammie@runolfonanderson.org"], ["created_at", "2019-01-30 21:39:54.632568"], ["updated_at", "2019-01-30 21:39:54.632568"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (45.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.9ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Douglas"], ["last_name", "Mosciski"], ["email", "joeannstiedemann@smith.co"], ["created_at", "2019-01-30 21:39:54.684211"], ["updated_at", "2019-01-30 21:39:54.684211"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (48.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Jon"], ["last_name", "Daniel"], ["email", "myron@block.io"], ["created_at", "2019-01-30 21:39:54.739956"], ["updated_at", "2019-01-30 21:39:54.739956"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (39.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.8ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Alfredia"], ["last_name", "Abbott"], ["email", "camillazulauf@hickleconnelly.io"], ["created_at", "2019-01-30 21:39:54.785029"], ["updated_at", "2019-01-30 21:39:54.785029"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (40.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Caryn"], ["last_name", "Kirlin"], ["email", "hilariamarquardt@mante.biz"], ["created_at", "2019-01-30 21:39:54.832579"], ["updated_at", "2019-01-30 21:39:54.832579"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (38.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Blair"], ["last_name", "Veum"], ["email", "stewart@mannhuels.name"], ["created_at", "2019-01-30 21:39:54.877709"], ["updated_at", "2019-01-30 21:39:54.877709"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (38.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Felica"], ["last_name", "Brown"], ["email", "burtonjohnston@batzbarton.name"], ["created_at", "2019-01-30 21:39:54.922425"], ["updated_at", "2019-01-30 21:39:54.922425"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (40.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.4ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Leonarda"], ["last_name", "Schulist"], ["email", "cynthiagulgowski@sawayn.biz"], ["created_at", "2019-01-30 21:39:54.971995"], ["updated_at", "2019-01-30 21:39:54.971995"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (46.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Chae"], ["last_name", "Collins"], ["email", "vickey@bailey.info"], ["created_at", "2019-01-30 21:39:55.025157"], ["updated_at", "2019-01-30 21:39:55.025157"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (38.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Idalia"], ["last_name", "Turner"], ["email", "donaldmurray@gusikowski.io"], ["created_at", "2019-01-30 21:39:55.072073"], ["updated_at", "2019-01-30 21:39:55.072073"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (37.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Whitney"], ["last_name", "O'Conner"], ["email", "denna@ziemann.com"], ["created_at", "2019-01-30 21:39:55.116815"], ["updated_at", "2019-01-30 21:39:55.116815"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (38.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Jay"], ["last_name", "Bosco"], ["email", "matthew@haley.org"], ["created_at", "2019-01-30 21:39:55.161900"], ["updated_at", "2019-01-30 21:39:55.161900"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (38.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (1.0ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Hillary"], ["last_name", "Ratke"], ["email", "reuben@rippin.io"], ["created_at", "2019-01-30 21:39:55.206610"], ["updated_at", "2019-01-30 21:39:55.206610"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (38.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.8ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Jovita"], ["last_name", "Steuber"], ["email", "cordia@dibbert.biz"], ["created_at", "2019-01-30 21:39:55.252090"], ["updated_at", "2019-01-30 21:39:55.252090"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (38.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Glenna"], ["last_name", "Jenkins"], ["email", "anna@corkery.info"], ["created_at", "2019-01-30 21:39:55.297835"], ["updated_at", "2019-01-30 21:39:55.297835"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (40.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Harold"], ["last_name", "Zemlak"], ["email", "denny@keelinggottlieb.name"], ["created_at", "2019-01-30 21:39:55.344231"], ["updated_at", "2019-01-30 21:39:55.344231"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (39.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Taryn"], ["last_name", "Mante"], ["email", "antoniamante@schowalter.biz"], ["created_at", "2019-01-30 21:39:55.390533"], ["updated_at", "2019-01-30 21:39:55.390533"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (38.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Wenona"], ["last_name", "Kuhic"], ["email", "vivian@price.net"], ["created_at", "2019-01-30 21:39:55.435648"], ["updated_at", "2019-01-30 21:39:55.435648"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (45.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.4ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Kiara"], ["last_name", "Schumm"], ["email", "lien@hilll.info"], ["created_at", "2019-01-30 21:39:55.505060"], ["updated_at", "2019-01-30 21:39:55.505060"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (37.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Willetta"], ["last_name", "Pfeffer"], ["email", "nadia@funkgutkowski.com"], ["created_at", "2019-01-30 21:39:55.585365"], ["updated_at", "2019-01-30 21:39:55.585365"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (167.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Reanna"], ["last_name", "Mohr"], ["email", "blairsatterfield@kuhichills.org"], ["created_at", "2019-01-30 21:39:55.759512"], ["updated_at", "2019-01-30 21:39:55.759512"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (39.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Lamonica"], ["last_name", "Nienow"], ["email", "ivelie@cormierdaniel.co"], ["created_at", "2019-01-30 21:39:55.809294"], ["updated_at", "2019-01-30 21:39:55.809294"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (47.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Garret"], ["last_name", "Armstrong"], ["email", "norbertodickinson@hansen.org"], ["created_at", "2019-01-30 21:39:55.870016"], ["updated_at", "2019-01-30 21:39:55.870016"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (43.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Dante"], ["last_name", "Green"], ["email", "glenn@rogahn.biz"], ["created_at", "2019-01-30 21:39:55.922628"], ["updated_at", "2019-01-30 21:39:55.922628"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (56.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.7ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Chadwick"], ["last_name", "Homenick"], ["email", "feltonbins@sawayn.io"], ["created_at", "2019-01-30 21:39:55.991640"], ["updated_at", "2019-01-30 21:39:55.991640"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (44.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Betty"], ["last_name", "Rowe"], ["email", "krystacrooks@flatley.org"], ["created_at", "2019-01-30 21:39:56.044624"], ["updated_at", "2019-01-30 21:39:56.044624"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (59.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Juliane"], ["last_name", "Kunze"], ["email", "gerikiehn@ledner.io"], ["created_at", "2019-01-30 21:39:56.112351"], ["updated_at", "2019-01-30 21:39:56.112351"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (38.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (1.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Angela"], ["last_name", "Homenick"], ["email", "stevenchristiansen@windler.biz"], ["created_at", "2019-01-30 21:39:56.164043"], ["updated_at", "2019-01-30 21:39:56.164043"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (71.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Dan"], ["last_name", "Green"], ["email", "erich@lockman.net"], ["created_at", "2019-01-30 21:39:56.239065"], ["updated_at", "2019-01-30 21:39:56.239065"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (41.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Porter"], ["last_name", "Price"], ["email", "mauricio@jones.com"], ["created_at", "2019-01-30 21:39:56.286474"], ["updated_at", "2019-01-30 21:39:56.286474"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (45.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Virginia"], ["last_name", "Bahringer"], ["email", "chi@friesen.name"], ["created_at", "2019-01-30 21:39:56.341307"], ["updated_at", "2019-01-30 21:39:56.341307"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (48.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Trinidad"], ["last_name", "Hauck"], ["email", "isaias@lubowitz.io"], ["created_at", "2019-01-30 21:39:56.398002"], ["updated_at", "2019-01-30 21:39:56.398002"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (47.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Mauricio"], ["last_name", "Keebler"], ["email", "gabriele@leuschkehermann.co"], ["created_at", "2019-01-30 21:39:56.454857"], ["updated_at", "2019-01-30 21:39:56.454857"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (47.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Sheron"], ["last_name", "Ernser"], ["email", "suk@sipes.info"], ["created_at", "2019-01-30 21:39:56.508472"], ["updated_at", "2019-01-30 21:39:56.508472"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (39.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Frederic"], ["last_name", "Jenkins"], ["email", "whitney@stamm.name"], ["created_at", "2019-01-30 21:39:56.557626"], ["updated_at", "2019-01-30 21:39:56.557626"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (47.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Quentin"], ["last_name", "Purdy"], ["email", "blair@johnsonbernier.com"], ["created_at", "2019-01-30 21:39:56.611680"], ["updated_at", "2019-01-30 21:39:56.611680"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (45.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Albert"], ["last_name", "Kerluke"], ["email", "gabriel@kris.name"], ["created_at", "2019-01-30 21:39:56.670928"], ["updated_at", "2019-01-30 21:39:56.670928"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (48.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Britta"], ["last_name", "Sauer"], ["email", "lavonda@mohrzemlak.name"], ["created_at", "2019-01-30 21:39:56.725698"], ["updated_at", "2019-01-30 21:39:56.725698"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (38.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Jaime"], ["last_name", "Sawayn"], ["email", "santos@rodriguez.net"], ["created_at", "2019-01-30 21:39:56.769415"], ["updated_at", "2019-01-30 21:39:56.769415"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (41.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Max"], ["last_name", "Bernier"], ["email", "milo@halvorson.biz"], ["created_at", "2019-01-30 21:39:56.815716"], ["updated_at", "2019-01-30 21:39:56.815716"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (37.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Bunny"], ["last_name", "Daugherty"], ["email", "bernardo@thiel.net"], ["created_at", "2019-01-30 21:39:56.863122"], ["updated_at", "2019-01-30 21:39:56.863122"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (37.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Augustina"], ["last_name", "Mitchell"], ["email", "spencer@spinkakovacek.io"], ["created_at", "2019-01-30 21:39:56.916002"], ["updated_at", "2019-01-30 21:39:56.916002"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (40.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Abdul"], ["last_name", "Sporer"], ["email", "damienhyatt@torp.net"], ["created_at", "2019-01-30 21:39:56.965035"], ["updated_at", "2019-01-30 21:39:56.965035"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (46.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Angela"], ["last_name", "Cummings"], ["email", "franklinhaley@hermann.co"], ["created_at", "2019-01-30 21:39:57.019225"], ["updated_at", "2019-01-30 21:39:57.019225"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (41.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Lory"], ["last_name", "Beer"], ["email", "jona@kihnvonrueden.co"], ["created_at", "2019-01-30 21:39:57.066024"], ["updated_at", "2019-01-30 21:39:57.066024"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (39.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Myriam"], ["last_name", "Welch"], ["email", "mikel@collins.name"], ["created_at", "2019-01-30 21:39:57.116759"], ["updated_at", "2019-01-30 21:39:57.116759"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (45.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Jill"], ["last_name", "Leannon"], ["email", "jerroldkeler@bergnaum.com"], ["created_at", "2019-01-30 21:39:57.169823"], ["updated_at", "2019-01-30 21:39:57.169823"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (47.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Tyler"], ["last_name", "Rosenbaum"], ["email", "dorcasmurphy@townehermiston.co"], ["created_at", "2019-01-30 21:39:57.226563"], ["updated_at", "2019-01-30 21:39:57.226563"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (50.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Paulina"], ["last_name", "Johns"], ["email", "bobbecker@ledner.co"], ["created_at", "2019-01-30 21:39:57.284798"], ["updated_at", "2019-01-30 21:39:57.284798"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (48.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Deeann"], ["last_name", "Jenkins"], ["email", "ellenkozey@blanda.co"], ["created_at", "2019-01-30 21:39:57.339761"], ["updated_at", "2019-01-30 21:39:57.339761"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (38.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Jacques"], ["last_name", "Johnson"], ["email", "joeyquigley@naderorn.io"], ["created_at", "2019-01-30 21:39:57.389574"], ["updated_at", "2019-01-30 21:39:57.389574"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (158.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Buck"], ["last_name", "Bergnaum"], ["email", "mason@dietrich.co"], ["created_at", "2019-01-30 21:39:57.555187"], ["updated_at", "2019-01-30 21:39:57.555187"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (49.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Reyes"], ["last_name", "Ruecker"], ["email", "lloydkoelpin@harris.info"], ["created_at", "2019-01-30 21:39:57.610803"], ["updated_at", "2019-01-30 21:39:57.610803"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (48.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Wiley"], ["last_name", "Pacocha"], ["email", "clementinemante@hilllsteuber.co"], ["created_at", "2019-01-30 21:39:57.665074"], ["updated_at", "2019-01-30 21:39:57.665074"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (48.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.9ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Evonne"], ["last_name", "Lesch"], ["email", "soomoen@hageneshaley.net"], ["created_at", "2019-01-30 21:39:57.722067"], ["updated_at", "2019-01-30 21:39:57.722067"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (38.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Louis"], ["last_name", "Okuneva"], ["email", "florence@hermistondouglas.co"], ["created_at", "2019-01-30 21:39:57.770999"], ["updated_at", "2019-01-30 21:39:57.770999"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (45.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Stanton"], ["last_name", "Heidenreich"], ["email", "ronald@emmerich.org"], ["created_at", "2019-01-30 21:39:57.826433"], ["updated_at", "2019-01-30 21:39:57.826433"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (46.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Gregorio"], ["last_name", "D'Amore"], ["email", "shelby@weimannoreilly.co"], ["created_at", "2019-01-30 21:39:57.882592"], ["updated_at", "2019-01-30 21:39:57.882592"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (45.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Fred"], ["last_name", "Baumbach"], ["email", "tamelaluettgen@ullrichdooley.name"], ["created_at", "2019-01-30 21:39:57.935440"], ["updated_at", "2019-01-30 21:39:57.935440"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (42.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.4ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Loyce"], ["last_name", "Dooley"], ["email", "danilolebsack@dietrich.org"], ["created_at", "2019-01-30 21:39:57.987291"], ["updated_at", "2019-01-30 21:39:57.987291"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (45.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Lucie"], ["last_name", "Lebsack"], ["email", "alexander@shanahan.com"], ["created_at", "2019-01-30 21:39:58.039885"], ["updated_at", "2019-01-30 21:39:58.039885"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (49.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.4ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Catheryn"], ["last_name", "Mohr"], ["email", "nanlarkin@feilolson.name"], ["created_at", "2019-01-30 21:39:58.100464"], ["updated_at", "2019-01-30 21:39:58.100464"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (47.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.9ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Sheree"], ["last_name", "Kertzmann"], ["email", "gustavo@vonrueden.io"], ["created_at", "2019-01-30 21:39:58.155911"], ["updated_at", "2019-01-30 21:39:58.155911"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (49.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Taylor"], ["last_name", "Mayert"], ["email", "reginaldrunolfsdottir@lang.net"], ["created_at", "2019-01-30 21:39:58.211770"], ["updated_at", "2019-01-30 21:39:58.211770"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (47.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.8ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Justin"], ["last_name", "Sipes"], ["email", "ruellkoepp@vandervortrath.info"], ["created_at", "2019-01-30 21:39:58.267744"], ["updated_at", "2019-01-30 21:39:58.267744"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (49.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Lesley"], ["last_name", "Koch"], ["email", "antoinettefarrell@runte.io"], ["created_at", "2019-01-30 21:39:58.323825"], ["updated_at", "2019-01-30 21:39:58.323825"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (47.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Lilli"], ["last_name", "Robel"], ["email", "man@hegmann.io"], ["created_at", "2019-01-30 21:39:58.381216"], ["updated_at", "2019-01-30 21:39:58.381216"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (49.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Bernice"], ["last_name", "Nitzsche"], ["email", "refugiodicki@kuhlman.io"], ["created_at", "2019-01-30 21:39:58.438992"], ["updated_at", "2019-01-30 21:39:58.438992"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (48.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Spencer"], ["last_name", "Schowalter"], ["email", "jenevagoldner@brekke.org"], ["created_at", "2019-01-30 21:39:58.495614"], ["updated_at", "2019-01-30 21:39:58.495614"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (47.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.8ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Laverne"], ["last_name", "Blanda"], ["email", "eleonoremcclure@sauerbalistreri.name"], ["created_at", "2019-01-30 21:39:58.550424"], ["updated_at", "2019-01-30 21:39:58.550424"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (40.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.9ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Tanja"], ["last_name", "Hilll"], ["email", "jacob@christiansen.co"], ["created_at", "2019-01-30 21:39:58.599940"], ["updated_at", "2019-01-30 21:39:58.599940"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (48.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Lucius"], ["last_name", "Jacobson"], ["email", "ruben@dare.com"], ["created_at", "2019-01-30 21:39:58.654680"], ["updated_at", "2019-01-30 21:39:58.654680"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (71.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Andre"], ["last_name", "Bradtke"], ["email", "hattie@wildermanjaskolski.co"], ["created_at", "2019-01-30 21:39:58.733055"], ["updated_at", "2019-01-30 21:39:58.733055"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (38.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Flora"], ["last_name", "Leuschke"], ["email", "dinahdare@connchamplin.info"], ["created_at", "2019-01-30 21:39:58.781025"], ["updated_at", "2019-01-30 21:39:58.781025"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (46.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Wilson"], ["last_name", "Erdman"], ["email", "tawny@willms.io"], ["created_at", "2019-01-30 21:39:58.836526"], ["updated_at", "2019-01-30 21:39:58.836526"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (48.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Charley"], ["last_name", "Skiles"], ["email", "trinidadreichel@collier.org"], ["created_at", "2019-01-30 21:39:58.893374"], ["updated_at", "2019-01-30 21:39:58.893374"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (37.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Jalisa"], ["last_name", "Keeling"], ["email", "gilbertoschamberger@roberts.name"], ["created_at", "2019-01-30 21:39:58.939437"], ["updated_at", "2019-01-30 21:39:58.939437"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (48.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Glenn"], ["last_name", "Cruickshank"], ["email", "nada@hyatt.co"], ["created_at", "2019-01-30 21:39:58.995142"], ["updated_at", "2019-01-30 21:39:58.995142"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (40.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Katy"], ["last_name", "Morar"], ["email", "noahemard@homenick.co"], ["created_at", "2019-01-30 21:39:59.041344"], ["updated_at", "2019-01-30 21:39:59.041344"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (47.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Riley"], ["last_name", "Cremin"], ["email", "claretha@murazik.io"], ["created_at", "2019-01-30 21:39:59.094830"], ["updated_at", "2019-01-30 21:39:59.094830"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (43.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.8ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Lillian"], ["last_name", "Schultz"], ["email", "keeley@kreigergutkowski.net"], ["created_at", "2019-01-30 21:39:59.145331"], ["updated_at", "2019-01-30 21:39:59.145331"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (45.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Alanna"], ["last_name", "Gaylord"], ["email", "kaci@jones.info"], ["created_at", "2019-01-30 21:39:59.198068"], ["updated_at", "2019-01-30 21:39:59.198068"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (44.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Ardell"], ["last_name", "Bins"], ["email", "roywuckert@cainbreitenberg.name"], ["created_at", "2019-01-30 21:39:59.248230"], ["updated_at", "2019-01-30 21:39:59.248230"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (157.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Lindsay"], ["last_name", "Fritsch"], ["email", "roman@schmidt.org"], ["created_at", "2019-01-30 21:39:59.413611"], ["updated_at", "2019-01-30 21:39:59.413611"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (49.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Elanor"], ["last_name", "Olson"], ["email", "jerica@ortiz.biz"], ["created_at", "2019-01-30 21:39:59.470709"], ["updated_at", "2019-01-30 21:39:59.470709"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (89.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Sherwood"], ["last_name", "Harvey"], ["email", "mark@ortiz.co"], ["created_at", "2019-01-30 21:39:59.566683"], ["updated_at", "2019-01-30 21:39:59.566683"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (49.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Tierra"], ["last_name", "Baumbach"], ["email", "gail@emmerich.name"], ["created_at", "2019-01-30 21:39:59.626191"], ["updated_at", "2019-01-30 21:39:59.626191"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (48.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Samatha"], ["last_name", "Jast"], ["email", "morrisstokes@lesch.name"], ["created_at", "2019-01-30 21:39:59.681144"], ["updated_at", "2019-01-30 21:39:59.681144"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (48.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Dale"], ["last_name", "Lind"], ["email", "raymond@emmerich.net"], ["created_at", "2019-01-30 21:39:59.737162"], ["updated_at", "2019-01-30 21:39:59.737162"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (47.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Mary"], ["last_name", "Senger"], ["email", "clay@ritchieskiles.org"], ["created_at", "2019-01-30 21:39:59.791869"], ["updated_at", "2019-01-30 21:39:59.791869"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (42.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Clifford"], ["last_name", "Jakubowski"], ["email", "dottiemacgyver@stamm.io"], ["created_at", "2019-01-30 21:39:59.840061"], ["updated_at", "2019-01-30 21:39:59.840061"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (47.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Janina"], ["last_name", "Padberg"], ["email", "hildegarde@reichel.net"], ["created_at", "2019-01-30 21:39:59.895524"], ["updated_at", "2019-01-30 21:39:59.895524"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (48.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Ivan"], ["last_name", "Ritchie"], ["email", "tomeka@mosciski.biz"], ["created_at", "2019-01-30 21:39:59.950625"], ["updated_at", "2019-01-30 21:39:59.950625"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (39.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Mirian"], ["last_name", "Erdman"], ["email", "dorseybrakus@hoppe.com"], ["created_at", "2019-01-30 21:39:59.998449"], ["updated_at", "2019-01-30 21:39:59.998449"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (70.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Barrett"], ["last_name", "Ebert"], ["email", "colby@nader.biz"], ["created_at", "2019-01-30 21:40:00.076085"], ["updated_at", "2019-01-30 21:40:00.076085"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (38.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Foster"], ["last_name", "Jakubowski"], ["email", "theron@hermistonpollich.io"], ["created_at", "2019-01-30 21:40:00.123197"], ["updated_at", "2019-01-30 21:40:00.123197"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (50.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Nilda"], ["last_name", "Blanda"], ["email", "ilene@hills.org"], ["created_at", "2019-01-30 21:40:00.178720"], ["updated_at", "2019-01-30 21:40:00.178720"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (39.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.8ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Albert"], ["last_name", "Hamill"], ["email", "ali@weinat.biz"], ["created_at", "2019-01-30 21:40:00.228414"], ["updated_at", "2019-01-30 21:40:00.228414"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (47.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Lonnie"], ["last_name", "Schultz"], ["email", "benedict@green.biz"], ["created_at", "2019-01-30 21:40:00.281792"], ["updated_at", "2019-01-30 21:40:00.281792"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (38.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Celina"], ["last_name", "Will"], ["email", "jamaalskiles@ruel.biz"], ["created_at", "2019-01-30 21:42:30.243437"], ["updated_at", "2019-01-30 21:42:30.243437"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (43.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Lloyd"], ["last_name", "Stehr"], ["email", "jefferson@littleschaden.org"], ["created_at", "2019-01-30 21:42:30.292572"], ["updated_at", "2019-01-30 21:42:30.292572"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (38.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Susana"], ["last_name", "VonRueden"], ["email", "dahliastracke@renner.net"], ["created_at", "2019-01-30 21:42:30.337637"], ["updated_at", "2019-01-30 21:42:30.337637"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (38.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Vaughn"], ["last_name", "Simonis"], ["email", "kyung@schowalter.biz"], ["created_at", "2019-01-30 21:42:30.382539"], ["updated_at", "2019-01-30 21:42:30.382539"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (150.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Josette"], ["last_name", "Koelpin"], ["email", "lanny@hermann.info"], ["created_at", "2019-01-30 21:42:30.539660"], ["updated_at", "2019-01-30 21:42:30.539660"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (40.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.8ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Celeste"], ["last_name", "Runolfsdottir"], ["email", "robinlittle@schuppeschinner.net"], ["created_at", "2019-01-30 21:42:30.585324"], ["updated_at", "2019-01-30 21:42:30.585324"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (39.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.9ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Macy"], ["last_name", "Durgan"], ["email", "ian@okuneva.com"], ["created_at", "2019-01-30 21:42:30.631134"], ["updated_at", "2019-01-30 21:42:30.631134"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (50.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Kennith"], ["last_name", "Weissnat"], ["email", "tarshahand@abernathyfritsch.biz"], ["created_at", "2019-01-30 21:42:30.689684"], ["updated_at", "2019-01-30 21:42:30.689684"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (47.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Ezekiel"], ["last_name", "Bins"], ["email", "jeika@kuhnabshire.info"], ["created_at", "2019-01-30 21:42:30.745577"], ["updated_at", "2019-01-30 21:42:30.745577"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (38.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.8ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Vannesa"], ["last_name", "Johnson"], ["email", "tyler@hackett.org"], ["created_at", "2019-01-30 21:42:30.790591"], ["updated_at", "2019-01-30 21:42:30.790591"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (38.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Diana"], ["last_name", "Beahan"], ["email", "kaylaturcotte@turner.net"], ["created_at", "2019-01-30 21:42:30.836671"], ["updated_at", "2019-01-30 21:42:30.836671"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (38.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "William"], ["last_name", "Medhurst"], ["email", "fernando@considine.io"], ["created_at", "2019-01-30 21:42:30.881784"], ["updated_at", "2019-01-30 21:42:30.881784"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (38.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Renee"], ["last_name", "MacGyver"], ["email", "kennahomenick@spencer.com"], ["created_at", "2019-01-30 21:42:30.927006"], ["updated_at", "2019-01-30 21:42:30.927006"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (38.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Taylor"], ["last_name", "Hammes"], ["email", "marco@kemmer.info"], ["created_at", "2019-01-30 21:42:30.973841"], ["updated_at", "2019-01-30 21:42:30.973841"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (48.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Delana"], ["last_name", "Tremblay"], ["email", "peggykshlerin@lynch.info"], ["created_at", "2019-01-30 21:42:31.025959"], ["updated_at", "2019-01-30 21:42:31.025959"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (43.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Caren"], ["last_name", "Mosciski"], ["email", "gusroob@mayert.org"], ["created_at", "2019-01-30 21:42:31.074694"], ["updated_at", "2019-01-30 21:42:31.074694"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (40.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Earnest"], ["last_name", "Wiegand"], ["email", "enid@vandervort.biz"], ["created_at", "2019-01-30 21:42:31.121345"], ["updated_at", "2019-01-30 21:42:31.121345"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (39.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Leland"], ["last_name", "Miller"], ["email", "lavada@bode.info"], ["created_at", "2019-01-30 21:42:31.165762"], ["updated_at", "2019-01-30 21:42:31.165762"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (40.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Camelia"], ["last_name", "Torphy"], ["email", "hildredroberts@schmidt.name"], ["created_at", "2019-01-30 21:42:31.211914"], ["updated_at", "2019-01-30 21:42:31.211914"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (40.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Albert"], ["last_name", "Dare"], ["email", "dottieondricka@brekke.co"], ["created_at", "2019-01-30 21:42:31.279972"], ["updated_at", "2019-01-30 21:42:31.279972"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (43.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Illa"], ["last_name", "Bailey"], ["email", "hedwig@bahringer.co"], ["created_at", "2019-01-30 21:42:31.328863"], ["updated_at", "2019-01-30 21:42:31.328863"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (45.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Edris"], ["last_name", "Roberts"], ["email", "trentstanton@cummerata.net"], ["created_at", "2019-01-30 21:42:31.382693"], ["updated_at", "2019-01-30 21:42:31.382693"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (40.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Nathaniel"], ["last_name", "Kautzer"], ["email", "amie@kelerstiedemann.net"], ["created_at", "2019-01-30 21:42:31.429572"], ["updated_at", "2019-01-30 21:42:31.429572"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (46.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Efrain"], ["last_name", "Dicki"], ["email", "aura@gutmann.org"], ["created_at", "2019-01-30 21:42:31.486085"], ["updated_at", "2019-01-30 21:42:31.486085"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (47.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Renaldo"], ["last_name", "Walsh"], ["email", "roscoe@upton.org"], ["created_at", "2019-01-30 21:42:31.545765"], ["updated_at", "2019-01-30 21:42:31.545765"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (44.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (1.3ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Lilla"], ["last_name", "Abshire"], ["email", "ericparisian@hauck.org"], ["created_at", "2019-01-30 21:42:31.601078"], ["updated_at", "2019-01-30 21:42:31.601078"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (43.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Rickie"], ["last_name", "Carter"], ["email", "kristine@altenwerth.net"], ["created_at", "2019-01-30 21:42:31.653689"], ["updated_at", "2019-01-30 21:42:31.653689"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (43.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Tracey"], ["last_name", "Lind"], ["email", "bonnie@lang.info"], ["created_at", "2019-01-30 21:42:31.700567"], ["updated_at", "2019-01-30 21:42:31.700567"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (41.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Evelynn"], ["last_name", "Connelly"], ["email", "torrimcdermott@weber.org"], ["created_at", "2019-01-30 21:42:31.748332"], ["updated_at", "2019-01-30 21:42:31.748332"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (44.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Adriane"], ["last_name", "Fay"], ["email", "scottielang@rogahn.net"], ["created_at", "2019-01-30 21:42:31.800606"], ["updated_at", "2019-01-30 21:42:31.800606"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (42.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Alonzo"], ["last_name", "Daugherty"], ["email", "mike@oberbrunner.name"], ["created_at", "2019-01-30 21:42:31.850810"], ["updated_at", "2019-01-30 21:42:31.850810"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (45.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.8ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Dalene"], ["last_name", "Nolan"], ["email", "latoria@spencer.co"], ["created_at", "2019-01-30 21:42:31.904348"], ["updated_at", "2019-01-30 21:42:31.904348"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (46.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Angila"], ["last_name", "Williamson"], ["email", "huimarquardt@bins.org"], ["created_at", "2019-01-30 21:42:31.962144"], ["updated_at", "2019-01-30 21:42:31.962144"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (51.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Mckinley"], ["last_name", "Wiegand"], ["email", "odellhintz@mannrobel.net"], ["created_at", "2019-01-30 21:42:32.020446"], ["updated_at", "2019-01-30 21:42:32.020446"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (47.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.6ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "George"], ["last_name", "Doyle"], ["email", "rodwillms@smithparisian.net"], ["created_at", "2019-01-30 21:42:32.077612"], ["updated_at", "2019-01-30 21:42:32.077612"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (50.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Deonna"], ["last_name", "Hirthe"], ["email", "nick@gleichner.biz"], ["created_at", "2019-01-30 21:42:32.133981"], ["updated_at", "2019-01-30 21:42:32.133981"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (159.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Lael"], ["last_name", "Okuneva"], ["email", "cristin@hammes.biz"], ["created_at", "2019-01-30 21:42:32.300256"], ["updated_at", "2019-01-30 21:42:32.300256"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (48.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Brandie"], ["last_name", "Windler"], ["email", "adolphrippin@larson.co"], ["created_at", "2019-01-30 21:42:32.357754"], ["updated_at", "2019-01-30 21:42:32.357754"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (49.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Shanell"], ["last_name", "Senger"], ["email", "fletchermurray@hagenes.co"], ["created_at", "2019-01-30 21:42:32.413490"], ["updated_at", "2019-01-30 21:42:32.413490"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (39.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Shanel"], ["last_name", "Wiza"], ["email", "tillie@thiel.com"], ["created_at", "2019-01-30 21:42:32.456525"], ["updated_at", "2019-01-30 21:42:32.456525"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (42.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Ayana"], ["last_name", "Steuber"], ["email", "ermelindanitzsche@rippintremblay.io"], ["created_at", "2019-01-30 21:42:32.504591"], ["updated_at", "2019-01-30 21:42:32.504591"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (38.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Lenny"], ["last_name", "Nicolas"], ["email", "jeff@cormier.info"], ["created_at", "2019-01-30 21:42:32.550836"], ["updated_at", "2019-01-30 21:42:32.550836"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (48.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Dolores"], ["last_name", "Jast"], ["email", "danielgerlach@lind.io"], ["created_at", "2019-01-30 21:42:32.605818"], ["updated_at", "2019-01-30 21:42:32.605818"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (49.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.9ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Antone"], ["last_name", "Grant"], ["email", "salvadorreinger@boscoreichert.name"], ["created_at", "2019-01-30 21:42:32.664567"], ["updated_at", "2019-01-30 21:42:32.664567"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (45.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Aleen"], ["last_name", "Orn"], ["email", "aracelishills@hilpertemmerich.name"], ["created_at", "2019-01-30 21:42:32.720668"], ["updated_at", "2019-01-30 21:42:32.720668"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (48.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Tyrell"], ["last_name", "Renner"], ["email", "ronald@turner.co"], ["created_at", "2019-01-30 21:42:32.777998"], ["updated_at", "2019-01-30 21:42:32.777998"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (46.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Monty"], ["last_name", "Crooks"], ["email", "ophelia@hettinger.co"], ["created_at", "2019-01-30 21:42:32.829419"], ["updated_at", "2019-01-30 21:42:32.829419"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (44.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Christel"], ["last_name", "Thiel"], ["email", "basilia@rolfsonwintheiser.name"], ["created_at", "2019-01-30 21:42:32.880577"], ["updated_at", "2019-01-30 21:42:32.880577"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (58.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Issac"], ["last_name", "Willms"], ["email", "shandra@davis.net"], ["created_at", "2019-01-30 21:42:32.958396"], ["updated_at", "2019-01-30 21:42:32.958396"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (48.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Willian"], ["last_name", "Auer"], ["email", "ezrawill@johns.name"], ["created_at", "2019-01-30 21:42:33.016717"], ["updated_at", "2019-01-30 21:42:33.016717"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (50.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Byron"], ["last_name", "Adams"], ["email", "kenton@kuhlmanshields.org"], ["created_at", "2019-01-30 21:42:33.074328"], ["updated_at", "2019-01-30 21:42:33.074328"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (63.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Booker"], ["last_name", "Friesen"], ["email", "leila@senger.net"], ["created_at", "2019-01-30 21:42:33.146198"], ["updated_at", "2019-01-30 21:42:33.146198"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (49.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Marty"], ["last_name", "Boehm"], ["email", "imogene@shanahan.info"], ["created_at", "2019-01-30 21:42:33.203604"], ["updated_at", "2019-01-30 21:42:33.203604"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (47.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Jeanmarie"], ["last_name", "Auer"], ["email", "ligia@farrell.io"], ["created_at", "2019-01-30 21:42:33.260779"], ["updated_at", "2019-01-30 21:42:33.260779"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (48.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.6ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Oscar"], ["last_name", "Deckow"], ["email", "shante@beahanoreilly.info"], ["created_at", "2019-01-30 21:42:33.316837"], ["updated_at", "2019-01-30 21:42:33.316837"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (47.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (1.1ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Wilton"], ["last_name", "Friesen"], ["email", "adellhuels@nienow.net"], ["created_at", "2019-01-30 21:42:33.372494"], ["updated_at", "2019-01-30 21:42:33.372494"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (38.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Morris"], ["last_name", "Anderson"], ["email", "laticia@buckridge.biz"], ["created_at", "2019-01-30 21:42:33.420844"], ["updated_at", "2019-01-30 21:42:33.420844"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (45.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Stanton"], ["last_name", "Auer"], ["email", "buffy@schaefergreenfelder.info"], ["created_at", "2019-01-30 21:42:33.476692"], ["updated_at", "2019-01-30 21:42:33.476692"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (69.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Carey"], ["last_name", "Hilll"], ["email", "migdalia@turcotteabbott.co"], ["created_at", "2019-01-30 21:42:33.555313"], ["updated_at", "2019-01-30 21:42:33.555313"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (46.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.9ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Jessika"], ["last_name", "Yundt"], ["email", "bambi@marks.net"], ["created_at", "2019-01-30 21:42:33.611397"], ["updated_at", "2019-01-30 21:42:33.611397"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (46.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Charolette"], ["last_name", "Emmerich"], ["email", "amiwisoky@wisoky.com"], ["created_at", "2019-01-30 21:42:33.666122"], ["updated_at", "2019-01-30 21:42:33.666122"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (39.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Yong"], ["last_name", "Conroy"], ["email", "lee@feil.io"], ["created_at", "2019-01-30 21:42:33.714573"], ["updated_at", "2019-01-30 21:42:33.714573"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (45.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Fredia"], ["last_name", "Renner"], ["email", "jeffryhuels@sengerschamberger.info"], ["created_at", "2019-01-30 21:42:33.771142"], ["updated_at", "2019-01-30 21:42:33.771142"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (45.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Justin"], ["last_name", "Howell"], ["email", "walton@rogahn.name"], ["created_at", "2019-01-30 21:42:33.826076"], ["updated_at", "2019-01-30 21:42:33.826076"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (47.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Bob"], ["last_name", "Lesch"], ["email", "lida@zboncakoconnell.net"], ["created_at", "2019-01-30 21:42:33.883543"], ["updated_at", "2019-01-30 21:42:33.883543"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (47.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Alejandro"], ["last_name", "Barrows"], ["email", "isabell@haagkrajcik.name"], ["created_at", "2019-01-30 21:42:33.940159"], ["updated_at", "2019-01-30 21:42:33.940159"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (49.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Garth"], ["last_name", "Donnelly"], ["email", "collette@brekke.biz"], ["created_at", "2019-01-30 21:42:33.998158"], ["updated_at", "2019-01-30 21:42:33.998158"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (148.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Kris"], ["last_name", "Schuppe"], ["email", "shawnastanton@larkin.io"], ["created_at", "2019-01-30 21:42:34.154494"], ["updated_at", "2019-01-30 21:42:34.154494"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (48.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Ron"], ["last_name", "Davis"], ["email", "burtward@lind.net"], ["created_at", "2019-01-30 21:42:34.213475"], ["updated_at", "2019-01-30 21:42:34.213475"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (47.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Lynwood"], ["last_name", "Boyer"], ["email", "penney@cummingsoberbrunner.co"], ["created_at", "2019-01-30 21:42:34.269980"], ["updated_at", "2019-01-30 21:42:34.269980"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (44.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.4ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (1.0ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Kallie"], ["last_name", "Renner"], ["email", "jericahayes@wardbalistreri.info"], ["created_at", "2019-01-30 21:42:34.324648"], ["updated_at", "2019-01-30 21:42:34.324648"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (45.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (1.1ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Lucas"], ["last_name", "Krajcik"], ["email", "rhonda@kuhicwill.info"], ["created_at", "2019-01-30 21:42:34.385833"], ["updated_at", "2019-01-30 21:42:34.385833"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (41.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Jamey"], ["last_name", "Rice"], ["email", "edwinrosenbaum@blandaharvey.org"], ["created_at", "2019-01-30 21:42:34.435095"], ["updated_at", "2019-01-30 21:42:34.435095"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (48.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Mark"], ["last_name", "O'Connell"], ["email", "isa@keeling.org"], ["created_at", "2019-01-30 21:42:34.494471"], ["updated_at", "2019-01-30 21:42:34.494471"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (47.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Rafael"], ["last_name", "Torp"], ["email", "branden@quigley.com"], ["created_at", "2019-01-30 21:42:34.549845"], ["updated_at", "2019-01-30 21:42:34.549845"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (48.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.8ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Sammie"], ["last_name", "Gleichner"], ["email", "hunterkerluke@johnston.co"], ["created_at", "2019-01-30 21:42:34.606729"], ["updated_at", "2019-01-30 21:42:34.606729"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (43.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Katherina"], ["last_name", "Skiles"], ["email", "fannygrady@hilllweinat.biz"], ["created_at", "2019-01-30 21:42:34.663794"], ["updated_at", "2019-01-30 21:42:34.663794"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (49.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.9ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Ola"], ["last_name", "Berge"], ["email", "domitiladickinson@schowaltermedhurst.name"], ["created_at", "2019-01-30 21:42:34.720984"], ["updated_at", "2019-01-30 21:42:34.720984"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (47.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Horacio"], ["last_name", "Gutmann"], ["email", "delorsebuckridge@pfefferdaugherty.co"], ["created_at", "2019-01-30 21:42:34.779164"], ["updated_at", "2019-01-30 21:42:34.779164"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (46.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Myles"], ["last_name", "Gusikowski"], ["email", "shaniqua@bruenwest.name"], ["created_at", "2019-01-30 21:42:34.835084"], ["updated_at", "2019-01-30 21:42:34.835084"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (51.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Daniella"], ["last_name", "Keeling"], ["email", "major@anderson.co"], ["created_at", "2019-01-30 21:42:34.894339"], ["updated_at", "2019-01-30 21:42:34.894339"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (43.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Mike"], ["last_name", "Emmerich"], ["email", "elvin@strackejast.biz"], ["created_at", "2019-01-30 21:42:34.947468"], ["updated_at", "2019-01-30 21:42:34.947468"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (46.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Bo"], ["last_name", "Russel"], ["email", "carolee@rodriguez.net"], ["created_at", "2019-01-30 21:42:35.003771"], ["updated_at", "2019-01-30 21:42:35.003771"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (48.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Damian"], ["last_name", "Tromp"], ["email", "marionjenkins@rodriguez.com"], ["created_at", "2019-01-30 21:42:35.059689"], ["updated_at", "2019-01-30 21:42:35.059689"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (38.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Shandi"], ["last_name", "Nikolaus"], ["email", "merle@baumbachdenesik.net"], ["created_at", "2019-01-30 21:42:35.104149"], ["updated_at", "2019-01-30 21:42:35.104149"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (38.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Bryant"], ["last_name", "Johnson"], ["email", "shawnaquitzon@wiza.info"], ["created_at", "2019-01-30 21:42:35.149145"], ["updated_at", "2019-01-30 21:42:35.149145"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (42.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Armando"], ["last_name", "Schuppe"], ["email", "inga@simonis.com"], ["created_at", "2019-01-30 21:42:35.197516"], ["updated_at", "2019-01-30 21:42:35.197516"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (46.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Maryann"], ["last_name", "Kerluke"], ["email", "taylor@schuppe.name"], ["created_at", "2019-01-30 21:42:35.252591"], ["updated_at", "2019-01-30 21:42:35.252591"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (52.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Ria"], ["last_name", "Kunze"], ["email", "novellacole@weimann.org"], ["created_at", "2019-01-30 21:42:35.312647"], ["updated_at", "2019-01-30 21:42:35.312647"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (58.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Kaylene"], ["last_name", "Schaefer"], ["email", "jeffereybednar@oconnell.name"], ["created_at", "2019-01-30 21:42:35.379698"], ["updated_at", "2019-01-30 21:42:35.379698"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (48.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Ahmed"], ["last_name", "Kulas"], ["email", "september@rathromaguera.com"], ["created_at", "2019-01-30 21:42:35.436393"], ["updated_at", "2019-01-30 21:42:35.436393"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (47.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Ezra"], ["last_name", "Skiles"], ["email", "drucillaharris@botsford.io"], ["created_at", "2019-01-30 21:42:35.492503"], ["updated_at", "2019-01-30 21:42:35.492503"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (48.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Donny"], ["last_name", "Gerlach"], ["email", "laurinestehr@fahey.biz"], ["created_at", "2019-01-30 21:42:35.549408"], ["updated_at", "2019-01-30 21:42:35.549408"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (47.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Susannah"], ["last_name", "Schaden"], ["email", "jerrellbogan@keler.co"], ["created_at", "2019-01-30 21:42:35.602650"], ["updated_at", "2019-01-30 21:42:35.602650"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (42.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Stewart"], ["last_name", "Beahan"], ["email", "domingo@hoppehodkiewicz.io"], ["created_at", "2019-01-30 21:42:35.652590"], ["updated_at", "2019-01-30 21:42:35.652590"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (46.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Summer"], ["last_name", "Schamberger"], ["email", "hollisward@lesch.name"], ["created_at", "2019-01-30 21:42:35.706807"], ["updated_at", "2019-01-30 21:42:35.706807"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (38.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Eloy"], ["last_name", "Dooley"], ["email", "gertrudis@carroll.info"], ["created_at", "2019-01-30 21:42:35.750869"], ["updated_at", "2019-01-30 21:42:35.750869"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (40.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Karyl"], ["last_name", "Johnson"], ["email", "bell@torphy.org"], ["created_at", "2019-01-30 21:42:35.799125"], ["updated_at", "2019-01-30 21:42:35.799125"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (160.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Justin"], ["last_name", "Bailey"], ["email", "roy@funk.co"], ["created_at", "2019-01-30 21:42:35.965493"], ["updated_at", "2019-01-30 21:42:35.965493"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (39.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Hilton"], ["last_name", "Schuppe"], ["email", "cyril@wintheiser.org"], ["created_at", "2019-01-30 21:42:36.010717"], ["updated_at", "2019-01-30 21:42:36.010717"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (42.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Ying"], ["last_name", "Bauch"], ["email", "dalebailey@rodriguez.biz"], ["created_at", "2019-01-30 21:44:45.097799"], ["updated_at", "2019-01-30 21:44:45.097799"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (40.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Claude"], ["last_name", "Greenfelder"], ["email", "theo@block.com"], ["created_at", "2019-01-30 21:44:45.142940"], ["updated_at", "2019-01-30 21:44:45.142940"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (39.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Julian"], ["last_name", "Johns"], ["email", "ulyeshudson@ratkeleuschke.net"], ["created_at", "2019-01-30 21:44:45.188187"], ["updated_at", "2019-01-30 21:44:45.188187"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (40.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Harry"], ["last_name", "Kulas"], ["email", "deborahmacgyver@dickikrajcik.com"], ["created_at", "2019-01-30 21:44:45.234543"], ["updated_at", "2019-01-30 21:44:45.234543"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (39.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.9ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Kristen"], ["last_name", "Beer"], ["email", "lelandkaulke@nicolas.io"], ["created_at", "2019-01-30 21:44:45.279353"], ["updated_at", "2019-01-30 21:44:45.279353"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (39.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Shelli"], ["last_name", "King"], ["email", "blythe@lockman.co"], ["created_at", "2019-01-30 21:44:45.324961"], ["updated_at", "2019-01-30 21:44:45.324961"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (39.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Thurman"], ["last_name", "Rowe"], ["email", "carlikonopelski@reichel.io"], ["created_at", "2019-01-30 21:44:45.371113"], ["updated_at", "2019-01-30 21:44:45.371113"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (40.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Rosalie"], ["last_name", "Kilback"], ["email", "teresitadooley@gleasonpadberg.biz"], ["created_at", "2019-01-30 21:44:45.415421"], ["updated_at", "2019-01-30 21:44:45.415421"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (42.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Desire"], ["last_name", "Nienow"], ["email", "ophelia@dare.biz"], ["created_at", "2019-01-30 21:44:45.460543"], ["updated_at", "2019-01-30 21:44:45.460543"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (42.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Micah"], ["last_name", "Waters"], ["email", "pasqualelangworth@nader.info"], ["created_at", "2019-01-30 21:44:45.514469"], ["updated_at", "2019-01-30 21:44:45.514469"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (46.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Everett"], ["last_name", "Bayer"], ["email", "gillian@hyatt.org"], ["created_at", "2019-01-30 21:44:45.564379"], ["updated_at", "2019-01-30 21:44:45.564379"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (39.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Danial"], ["last_name", "Walker"], ["email", "burt@hoppe.com"], ["created_at", "2019-01-30 21:44:45.611270"], ["updated_at", "2019-01-30 21:44:45.611270"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (39.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Verdie"], ["last_name", "Graham"], ["email", "wayne@graham.org"], ["created_at", "2019-01-30 21:44:45.655729"], ["updated_at", "2019-01-30 21:44:45.655729"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (62.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Rueben"], ["last_name", "Rath"], ["email", "sebastiankautzer@mccullough.name"], ["created_at", "2019-01-30 21:44:45.726741"], ["updated_at", "2019-01-30 21:44:45.726741"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (47.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Ryan"], ["last_name", "Marvin"], ["email", "anisha@langworthsporer.io"], ["created_at", "2019-01-30 21:44:45.781583"], ["updated_at", "2019-01-30 21:44:45.781583"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (37.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Bobby"], ["last_name", "Nitzsche"], ["email", "margherita@greenrunte.name"], ["created_at", "2019-01-30 21:44:45.826032"], ["updated_at", "2019-01-30 21:44:45.826032"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (40.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (2.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Romana"], ["last_name", "Corkery"], ["email", "aleshako@sanford.io"], ["created_at", "2019-01-30 21:44:45.876298"], ["updated_at", "2019-01-30 21:44:45.876298"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (42.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Kimberlee"], ["last_name", "Nolan"], ["email", "daine@framibecker.biz"], ["created_at", "2019-01-30 21:44:45.927159"], ["updated_at", "2019-01-30 21:44:45.927159"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (41.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Wonda"], ["last_name", "McClure"], ["email", "rudolf@tillmanbahringer.info"], ["created_at", "2019-01-30 21:44:45.975258"], ["updated_at", "2019-01-30 21:44:45.975258"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (38.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Elijah"], ["last_name", "Lemke"], ["email", "deloras@vonruedenwaters.com"], ["created_at", "2019-01-30 21:44:46.020203"], ["updated_at", "2019-01-30 21:44:46.020203"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (39.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Gaylord"], ["last_name", "Schaefer"], ["email", "mervin@harrisjohns.io"], ["created_at", "2019-01-30 21:44:46.066828"], ["updated_at", "2019-01-30 21:44:46.066828"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (48.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Leone"], ["last_name", "Huel"], ["email", "jeramyferry@smith.org"], ["created_at", "2019-01-30 21:44:46.121089"], ["updated_at", "2019-01-30 21:44:46.121089"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (43.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Marlyn"], ["last_name", "Ledner"], ["email", "ona@wolff.name"], ["created_at", "2019-01-30 21:44:46.168751"], ["updated_at", "2019-01-30 21:44:46.168751"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (38.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Colene"], ["last_name", "Effertz"], ["email", "orlando@klein.co"], ["created_at", "2019-01-30 21:44:46.211705"], ["updated_at", "2019-01-30 21:44:46.211705"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (42.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (2.4ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Casandra"], ["last_name", "Mills"], ["email", "rowena@hammes.co"], ["created_at", "2019-01-30 21:44:46.261255"], ["updated_at", "2019-01-30 21:44:46.261255"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (44.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Reynaldo"], ["last_name", "Muller"], ["email", "chinahermann@dooleyhayes.biz"], ["created_at", "2019-01-30 21:44:46.317322"], ["updated_at", "2019-01-30 21:44:46.317322"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (182.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Mariano"], ["last_name", "Botsford"], ["email", "mauro@hoppe.biz"], ["created_at", "2019-01-30 21:44:46.507046"], ["updated_at", "2019-01-30 21:44:46.507046"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (47.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Dann"], ["last_name", "Hilll"], ["email", "clifton@homenick.co"], ["created_at", "2019-01-30 21:44:46.561653"], ["updated_at", "2019-01-30 21:44:46.561653"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (62.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Lemuel"], ["last_name", "Ortiz"], ["email", "chaddickens@zboncak.name"], ["created_at", "2019-01-30 21:44:46.631660"], ["updated_at", "2019-01-30 21:44:46.631660"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (49.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Cecelia"], ["last_name", "Treutel"], ["email", "errol@keeblerortiz.info"], ["created_at", "2019-01-30 21:44:46.688875"], ["updated_at", "2019-01-30 21:44:46.688875"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (50.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Merissa"], ["last_name", "Fritsch"], ["email", "kiananitzsche@collier.com"], ["created_at", "2019-01-30 21:44:46.746405"], ["updated_at", "2019-01-30 21:44:46.746405"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (47.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Paula"], ["last_name", "Cruickshank"], ["email", "patkihn@adams.info"], ["created_at", "2019-01-30 21:44:46.801807"], ["updated_at", "2019-01-30 21:44:46.801807"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (38.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Royal"], ["last_name", "Lebsack"], ["email", "agustinryan@bailey.name"], ["created_at", "2019-01-30 21:44:46.849385"], ["updated_at", "2019-01-30 21:44:46.849385"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (46.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Gaylord"], ["last_name", "Kuhn"], ["email", "georgine@jakubowski.io"], ["created_at", "2019-01-30 21:44:46.904625"], ["updated_at", "2019-01-30 21:44:46.904625"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (51.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Karren"], ["last_name", "Sauer"], ["email", "lesia@beckercronin.info"], ["created_at", "2019-01-30 21:44:46.961378"], ["updated_at", "2019-01-30 21:44:46.961378"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (37.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Joey"], ["last_name", "Mohr"], ["email", "shielamcclure@ratkearmstrong.com"], ["created_at", "2019-01-30 21:44:47.006410"], ["updated_at", "2019-01-30 21:44:47.006410"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (37.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Vincent"], ["last_name", "Wintheiser"], ["email", "leonelullrich@dibbert.name"], ["created_at", "2019-01-30 21:44:47.051850"], ["updated_at", "2019-01-30 21:44:47.051850"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (48.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Karan"], ["last_name", "King"], ["email", "bobbyoconner@hayechumm.org"], ["created_at", "2019-01-30 21:44:47.108796"], ["updated_at", "2019-01-30 21:44:47.108796"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (38.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (2.9ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Wilford"], ["last_name", "Pacocha"], ["email", "corneliusfarrell@kautzerframi.name"], ["created_at", "2019-01-30 21:44:47.156035"], ["updated_at", "2019-01-30 21:44:47.156035"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (43.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Russ"], ["last_name", "Volkman"], ["email", "marcowiza@reichel.info"], ["created_at", "2019-01-30 21:44:47.211680"], ["updated_at", "2019-01-30 21:44:47.211680"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (48.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Arnoldo"], ["last_name", "O'Reilly"], ["email", "ha@ortizmiller.biz"], ["created_at", "2019-01-30 21:44:47.269470"], ["updated_at", "2019-01-30 21:44:47.269470"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (49.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Carlotta"], ["last_name", "Rempel"], ["email", "alethia@krajcikolson.io"], ["created_at", "2019-01-30 21:44:47.326856"], ["updated_at", "2019-01-30 21:44:47.326856"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (46.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Ernie"], ["last_name", "Crooks"], ["email", "dotty@veum.name"], ["created_at", "2019-01-30 21:44:47.383630"], ["updated_at", "2019-01-30 21:44:47.383630"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (47.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Billy"], ["last_name", "Ruecker"], ["email", "isiah@zulauf.biz"], ["created_at", "2019-01-30 21:44:47.437544"], ["updated_at", "2019-01-30 21:44:47.437544"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (48.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Londa"], ["last_name", "Douglas"], ["email", "darell@hegmann.co"], ["created_at", "2019-01-30 21:44:47.495495"], ["updated_at", "2019-01-30 21:44:47.495495"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (47.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Myriam"], ["last_name", "Osinski"], ["email", "selene@botsfordtrantow.io"], ["created_at", "2019-01-30 21:44:47.551677"], ["updated_at", "2019-01-30 21:44:47.551677"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (47.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Jeffry"], ["last_name", "White"], ["email", "emilohara@stamm.net"], ["created_at", "2019-01-30 21:44:47.607808"], ["updated_at", "2019-01-30 21:44:47.607808"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (37.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Marica"], ["last_name", "Beahan"], ["email", "jimmie@deckow.io"], ["created_at", "2019-01-30 21:44:47.654568"], ["updated_at", "2019-01-30 21:44:47.654568"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (47.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Victorina"], ["last_name", "Wuckert"], ["email", "patti@trantowlemke.co"], ["created_at", "2019-01-30 21:44:47.718742"], ["updated_at", "2019-01-30 21:44:47.718742"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (42.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Andrea"], ["last_name", "Wunsch"], ["email", "jaime@skiles.co"], ["created_at", "2019-01-30 21:44:47.766998"], ["updated_at", "2019-01-30 21:44:47.766998"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (47.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Wendy"], ["last_name", "Watsica"], ["email", "archieconroy@mcglynn.org"], ["created_at", "2019-01-30 21:44:47.824336"], ["updated_at", "2019-01-30 21:44:47.824336"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (48.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Cyril"], ["last_name", "Marquardt"], ["email", "lynn@spencer.name"], ["created_at", "2019-01-30 21:44:47.882996"], ["updated_at", "2019-01-30 21:44:47.882996"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (45.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Eric"], ["last_name", "Pagac"], ["email", "kendalabshire@mante.info"], ["created_at", "2019-01-30 21:44:47.939137"], ["updated_at", "2019-01-30 21:44:47.939137"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (48.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Christopher"], ["last_name", "Sawayn"], ["email", "kaseydare@goodwinfeest.io"], ["created_at", "2019-01-30 21:44:47.995184"], ["updated_at", "2019-01-30 21:44:47.995184"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (46.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Raphael"], ["last_name", "Cruickshank"], ["email", "elodia@ruel.com"], ["created_at", "2019-01-30 21:44:48.053365"], ["updated_at", "2019-01-30 21:44:48.053365"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (46.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Harris"], ["last_name", "Batz"], ["email", "rigobertoklocko@hilll.co"], ["created_at", "2019-01-30 21:44:48.108472"], ["updated_at", "2019-01-30 21:44:48.108472"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (46.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Carlos"], ["last_name", "Torphy"], ["email", "hilario@bernhardbogan.org"], ["created_at", "2019-01-30 21:44:48.165371"], ["updated_at", "2019-01-30 21:44:48.165371"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (160.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Charity"], ["last_name", "Bergstrom"], ["email", "delphia@ortiz.net"], ["created_at", "2019-01-30 21:44:48.333539"], ["updated_at", "2019-01-30 21:44:48.333539"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (46.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.8ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Cristobal"], ["last_name", "Frami"], ["email", "darinkling@kaulke.info"], ["created_at", "2019-01-30 21:44:48.388714"], ["updated_at", "2019-01-30 21:44:48.388714"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (46.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Oliver"], ["last_name", "Nader"], ["email", "clyde@fadel.info"], ["created_at", "2019-01-30 21:44:48.446294"], ["updated_at", "2019-01-30 21:44:48.446294"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (45.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Brain"], ["last_name", "Oberbrunner"], ["email", "vernon@rogahn.co"], ["created_at", "2019-01-30 21:44:48.501869"], ["updated_at", "2019-01-30 21:44:48.501869"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (47.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Dayle"], ["last_name", "Greenfelder"], ["email", "monnie@bergstrombrekke.name"], ["created_at", "2019-01-30 21:44:48.559634"], ["updated_at", "2019-01-30 21:44:48.559634"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (48.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (1.9ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Dino"], ["last_name", "Streich"], ["email", "betty@hermannmosciski.net"], ["created_at", "2019-01-30 21:44:48.618735"], ["updated_at", "2019-01-30 21:44:48.618735"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (43.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (1.1ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Carmen"], ["last_name", "Kerluke"], ["email", "isiah@pfeffer.biz"], ["created_at", "2019-01-30 21:44:48.674476"], ["updated_at", "2019-01-30 21:44:48.674476"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (45.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Orlando"], ["last_name", "Ullrich"], ["email", "mancummings@kirlindach.name"], ["created_at", "2019-01-30 21:44:48.727828"], ["updated_at", "2019-01-30 21:44:48.727828"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (47.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Nicolas"], ["last_name", "Metz"], ["email", "claude@konopelski.com"], ["created_at", "2019-01-30 21:44:48.785844"], ["updated_at", "2019-01-30 21:44:48.785844"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (37.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Pattie"], ["last_name", "Kuhn"], ["email", "odell@pfannerstill.name"], ["created_at", "2019-01-30 21:44:48.831374"], ["updated_at", "2019-01-30 21:44:48.831374"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (47.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Jamal"], ["last_name", "Powlowski"], ["email", "lazarohayes@lockmanondricka.io"], ["created_at", "2019-01-30 21:44:48.889944"], ["updated_at", "2019-01-30 21:44:48.889944"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (46.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Keenan"], ["last_name", "Gleason"], ["email", "roxyjacobson@legros.name"], ["created_at", "2019-01-30 21:44:48.945034"], ["updated_at", "2019-01-30 21:44:48.945034"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (46.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.8ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Irina"], ["last_name", "Towne"], ["email", "jamel@greenfelderflatley.com"], ["created_at", "2019-01-30 21:44:49.008238"], ["updated_at", "2019-01-30 21:44:49.008238"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (40.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Randy"], ["last_name", "Runte"], ["email", "monroe@marquardt.org"], ["created_at", "2019-01-30 21:44:49.057881"], ["updated_at", "2019-01-30 21:44:49.057881"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (58.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Melida"], ["last_name", "Hessel"], ["email", "giovanniromaguera@kochborer.com"], ["created_at", "2019-01-30 21:44:49.124888"], ["updated_at", "2019-01-30 21:44:49.124888"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (49.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.9ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Clemente"], ["last_name", "McClure"], ["email", "marshall@koch.biz"], ["created_at", "2019-01-30 21:44:49.182357"], ["updated_at", "2019-01-30 21:44:49.182357"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (85.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Milan"], ["last_name", "Koelpin"], ["email", "tammerakovacek@mccullough.net"], ["created_at", "2019-01-30 21:44:49.277254"], ["updated_at", "2019-01-30 21:44:49.277254"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (45.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Marion"], ["last_name", "Marquardt"], ["email", "demetriusprosacco@weimann.biz"], ["created_at", "2019-01-30 21:44:49.333118"], ["updated_at", "2019-01-30 21:44:49.333118"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (46.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Karren"], ["last_name", "Little"], ["email", "wilfredo@boyer.com"], ["created_at", "2019-01-30 21:44:49.389320"], ["updated_at", "2019-01-30 21:44:49.389320"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (48.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Clair"], ["last_name", "Romaguera"], ["email", "santoskling@oconnell.co"], ["created_at", "2019-01-30 21:44:49.446939"], ["updated_at", "2019-01-30 21:44:49.446939"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (45.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Maire"], ["last_name", "Ondricka"], ["email", "maryann@king.org"], ["created_at", "2019-01-30 21:44:49.504019"], ["updated_at", "2019-01-30 21:44:49.504019"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (45.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Malik"], ["last_name", "Huel"], ["email", "sybilbraun@schmitt.com"], ["created_at", "2019-01-30 21:44:49.560355"], ["updated_at", "2019-01-30 21:44:49.560355"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (46.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.8ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Giovanna"], ["last_name", "Satterfield"], ["email", "aurelio@koelpin.biz"], ["created_at", "2019-01-30 21:44:49.614765"], ["updated_at", "2019-01-30 21:44:49.614765"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (46.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Bart"], ["last_name", "Schroeder"], ["email", "valenciarohan@blick.name"], ["created_at", "2019-01-30 21:44:49.672036"], ["updated_at", "2019-01-30 21:44:49.672036"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (49.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Branden"], ["last_name", "Hackett"], ["email", "roycewolff@pfannerstill.name"], ["created_at", "2019-01-30 21:44:49.729808"], ["updated_at", "2019-01-30 21:44:49.729808"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (48.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Krystal"], ["last_name", "Brakus"], ["email", "val@auer.co"], ["created_at", "2019-01-30 21:44:49.787408"], ["updated_at", "2019-01-30 21:44:49.787408"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (47.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Latarsha"], ["last_name", "Ernser"], ["email", "rachelfranecki@powlowski.biz"], ["created_at", "2019-01-30 21:44:49.845912"], ["updated_at", "2019-01-30 21:44:49.845912"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (45.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Lasonya"], ["last_name", "Koss"], ["email", "koreywiza@ryan.io"], ["created_at", "2019-01-30 21:44:49.896236"], ["updated_at", "2019-01-30 21:44:49.896236"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (43.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Katelyn"], ["last_name", "Friesen"], ["email", "teneshaerdman@mertzrippin.co"], ["created_at", "2019-01-30 21:44:49.946976"], ["updated_at", "2019-01-30 21:44:49.946976"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (47.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Barbie"], ["last_name", "Huel"], ["email", "lashawndagreenholt@mraz.name"], ["created_at", "2019-01-30 21:44:50.002118"], ["updated_at", "2019-01-30 21:44:50.002118"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (47.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.9ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Genaro"], ["last_name", "Bauch"], ["email", "isrealemard@colliercollins.io"], ["created_at", "2019-01-30 21:44:50.059001"], ["updated_at", "2019-01-30 21:44:50.059001"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (159.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Leonel"], ["last_name", "Pacocha"], ["email", "madelene@torp.net"], ["created_at", "2019-01-30 21:44:50.228174"], ["updated_at", "2019-01-30 21:44:50.228174"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (44.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Timmy"], ["last_name", "Abernathy"], ["email", "stuarttorphy@heller.name"], ["created_at", "2019-01-30 21:44:50.282222"], ["updated_at", "2019-01-30 21:44:50.282222"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (47.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (1.0ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Eliseo"], ["last_name", "Okuneva"], ["email", "eddietromp@flatleymcclure.biz"], ["created_at", "2019-01-30 21:44:50.338876"], ["updated_at", "2019-01-30 21:44:50.338876"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (48.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Bobby"], ["last_name", "Hansen"], ["email", "edwinlynch@tromp.com"], ["created_at", "2019-01-30 21:44:50.396126"], ["updated_at", "2019-01-30 21:44:50.396126"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (50.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.8ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Kena"], ["last_name", "Kertzmann"], ["email", "silviazulauf@gerhold.name"], ["created_at", "2019-01-30 21:44:50.453838"], ["updated_at", "2019-01-30 21:44:50.453838"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (47.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.9ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Kristie"], ["last_name", "Powlowski"], ["email", "eugenecarter@wildermankilback.co"], ["created_at", "2019-01-30 21:44:50.507556"], ["updated_at", "2019-01-30 21:44:50.507556"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (40.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Tyrone"], ["last_name", "Wilkinson"], ["email", "justinjakubowski@hodkiewicz.info"], ["created_at", "2019-01-30 21:44:50.554604"], ["updated_at", "2019-01-30 21:44:50.554604"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (47.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Javier"], ["last_name", "Gottlieb"], ["email", "joebahringer@lebsack.net"], ["created_at", "2019-01-30 21:44:50.612706"], ["updated_at", "2019-01-30 21:44:50.612706"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (48.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Javier"], ["last_name", "Rowe"], ["email", "royce@emmerich.org"], ["created_at", "2019-01-30 21:44:50.666604"], ["updated_at", "2019-01-30 21:44:50.666604"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (40.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Renita"], ["last_name", "MacGyver"], ["email", "darrenraynor@crist.co"], ["created_at", "2019-01-30 21:44:50.711395"], ["updated_at", "2019-01-30 21:44:50.711395"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (41.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.8ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Calvin"], ["last_name", "Hamill"], ["email", "carolhartmann@jacobi.name"], ["created_at", "2019-01-30 21:44:50.761368"], ["updated_at", "2019-01-30 21:44:50.761368"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (44.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mUser Create (0.8ms)[0m  [1m[32mINSERT INTO "users" ("first_name", "last_name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["first_name", "Deshawn"], ["last_name", "Kutch"], ["email", "enidquigley@zulaufpaucek.org"], ["created_at", "2019-01-30 21:44:50.817546"], ["updated_at", "2019-01-30 21:44:50.817546"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (41.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
