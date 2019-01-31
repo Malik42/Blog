@@ -1,4 +1,4 @@
-# TheHackingPinterest
+# Blog
 
 1. First run ```Bundle install```
 2. run ```rails db:seed```
